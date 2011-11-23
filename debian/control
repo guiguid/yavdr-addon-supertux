@@ -1,0 +1,12 @@
+Source: yavdr-addon-supertux
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 3.8.4
+Build-Depends: debhelper (>= 7), cdbs
+
+Package: yavdr-addon-supertux
+Architecture: all
+Depends: ${yavdr-startup},${misc:Depends}, yavdr-utils, supertux
+Description: yavdr-addon-supertux
+ yavdr-addon-supertux
